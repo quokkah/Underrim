@@ -1,4 +1,4 @@
-module underrim.underrimgame {
+module underrim.UnderrimGame {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,6 +11,6 @@ module underrim.underrimgame {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens underrim.underrimgame to javafx.fxml;
-    exports underrim.underrimgame;
+    opens underrim.UnderrimGame to javafx.fxml;
+    exports underrim.UnderrimGame;
 }
