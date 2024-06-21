@@ -1,0 +1,23 @@
+.button {
+    -fx-background-color: #222831;
+    -fx-text-fill: #EEEEEE;
+    -fx-min-width: 200;
+    -fx-font-size: 20
+}
+.button:pressed {
+    -fx-background-color: #2B313A;
+    -fx-min-width: 220;
+    -fx-font-size: 22;
+}
+.text-area {
+    -fx-background-insets: 1;
+    -fx-highlight-fill: #EEEEEE;
+    -fx-text-fill: #EEEEEE;
+    -fx-control-inner-background: #222831;
+    -fx-highlight-text-fill: #222831;
+    -fx-background-color: #222831;
+}
+.content {
+    -fx-background-color: #222831;
+    -fx-background-radius: 0;
+}
